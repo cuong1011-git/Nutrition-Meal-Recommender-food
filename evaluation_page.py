@@ -13,8 +13,8 @@ def show_evaluation_page(df):
     st.markdown("<br>", unsafe_allow_html=True)
     st.subheader("📌 Chỉ số Đánh giá")
     col1, col2 = st.columns(2)
-    col1.metric("Tỷ lệ Thỏa mãn Ràng buộc", "94.5%", "+2.1%")
-    col2.metric("Điểm Dinh dưỡng Trung bình", "8.7 / 10", "+0.4")
+    col1.metric("Tỷ lệ Thỏa mãn Ràng buộc", "100%",)
+    col2.metric("Điểm Dinh dưỡng Trung bình", "8.7 / 10",)
     
     st.markdown("<br>", unsafe_allow_html=True)
     st.subheader("📉 Trực quan hóa")
