@@ -1,7 +1,7 @@
 import streamlit as st
-from views.eda_page import show_eda_page
-from views.recommendation_page import show_recommendation_page
-from views.evaluation_page import show_evaluation_page
+from eda_page import show_eda_page
+from recommendation_page import show_recommendation_page
+from evaluation_page import show_evaluation_page
 from utils.preprocessing import clean_data
 import pandas as pd
 import os
